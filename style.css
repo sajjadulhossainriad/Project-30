@@ -1,0 +1,140 @@
+body,h1,h2,h3,h4,h5,h6,p,span{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/*header css*/
+.header-section {
+    background-color: #fff;
+    padding: 10px 0;
+}
+.header-logo {
+}
+.header-logo img {
+}
+.header-logo a {
+}
+.header-section {
+}
+.header-section .header-menu {
+    text-align: left;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.header-section .header-menu li {
+    display: inline-block;
+}
+.header-section .header-menu li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    padding-right: 25px;
+    line-height: 39px;
+}
+.header-section .header-button {
+    padding: 5px 25px;
+}
+/* header css*/
+.banner-section {
+    background: url(./image/ia_200000012.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 220px 0;
+}
+.banner-text h4 {
+    margin-top: -80px;
+}
+.banner-text h1 {
+    margin-top: 45px;
+    font-weight: 500;
+}
+.banner-text .banner-button {
+    margin-top: 76px;
+    color: #fff;
+    font-weight: 500;
+}
+/* About section*/
+.about-section{
+    background-color: #f7f9ff;
+}
+.about-text{
+    margin-top: 110px;
+}
+.about-text h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.about-text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2rem;
+}
+/* Features section*/
+.feature-item{
+    height: 250px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    transform: translateY(0);
+    transition: .5s;
+}
+.feature-item:hover{
+    transform: translateY(12px);
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.5);
+}
+.left-img-item{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 4px 0 0 4px;
+}
+.left-img-item img{
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+}
+.right-text-item{
+    width: 60%;
+    padding: 20px;
+}
+.right-text-item h4{
+    font-size: 18px;
+}
+.right-text-item p{
+    font-size: 17px;
+}
+/*counter section*/
+.number-counter{
+    background-color: #f7f9ff;
+}
+.counted-number h2{
+    font-size: 60px;
+}
+/*portfolio Section*/
+.portfolio-section{
+    background-color: #fff;
+}
+.portfolio-item{
+    transform: translateY(0);
+    transition: all .5s;
+}
+.portfolio-item:hover{
+    transform: translateY(10px);
+}
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(98, 120, 223, 0.5);
+    opacity: 0;
+    visibility: hidden;
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
